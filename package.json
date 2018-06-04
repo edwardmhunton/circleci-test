@@ -1,0 +1,11 @@
+{
+  "name": "circleci-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:edwardmhunton/circleci-test.git",
+  "author": "edwardhunton <edward.hunton@rightster.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "scripts/test"
+  }
+}
