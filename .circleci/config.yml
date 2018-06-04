@@ -36,9 +36,9 @@ jobs:
       # run tests!
       - run: yarn test
   deploy:
-    machine:
-        enabled: true
-    working_directory: ~/repo
+    docker:
+    # specify the version you desire here
+      - image: circleci/node:7.10
     environment:
       - HEROKU_APP: circlecli-test
 
