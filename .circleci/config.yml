@@ -41,7 +41,8 @@ jobs:
     working_directory: ~/repo
     environment:
       - HEROKU_APP: circlecli-test
-      steps:
+
+    steps:
       - checkout
       - run:
           name: Deploy Master to Heroku
